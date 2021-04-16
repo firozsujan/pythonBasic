@@ -41,7 +41,7 @@ def pop(insertStatement, list):
     return list
  
 def reverse(insertStatement, list):
-    list.sort(reverse=True)
+    list.reverse()
     return list
 
 if __name__ == '__main__':
