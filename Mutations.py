@@ -5,8 +5,8 @@ def mutate_string(string, position, character):
     newString = ""
     l = list(string)
     l[position] = character
-    string = ''.join(l)
-    return string
+    newString = ''.join(l)
+    return newString
 
 if __name__ == '__main__':
     s = input()
